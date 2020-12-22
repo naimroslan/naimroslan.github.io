@@ -173,7 +173,7 @@ a.work-link:visited, a.email:visited, a.github:visited, a.instagram:visited, a.l
 }
 
 .repo-desc {
-  color: rgb(202, 131, 0);
+  color:rgb(255, 174, 23);
 }
 
 /* contact page */
@@ -200,7 +200,7 @@ a.work-link:visited, a.email:visited, a.github:visited, a.instagram:visited, a.l
 .contact-link {
   line-height: 250%;
   font-weight: 800;
-  color: rgb(202, 131, 0);
+  color:rgb(207, 140, 14);
 }
 
 .github, .instagram, .linkedin {
