@@ -1,0 +1,227 @@
+:root {
+  --main-radius: 5px;
+  --main-padding: 5px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a.about, a.work, a.contact, a.work-link, a.email, a.github, a.instagram, a.linkedin{
+  text-decoration: none;
+  color: inherit;
+}
+
+a.work-link:visited, a.email:visited, a.github:visited, a.instagram:visited, a.linkedin:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.row {
+  display: flex;
+  height: 33.3vh;
+  padding: 10% 10% 10% 10%;
+}
+
+.column {
+  flex: 50%;
+}
+
+.column h1 {
+  font-size: 100px;
+  margin-left: 35%;
+}
+
+.hide {
+  background: white;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+.topnav {
+  position: fixed;
+  background-color: inherit;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  color: black;
+}
+
+/* index page */
+
+.landing-text {
+  font-size: 40px;
+  line-height: 200%;
+}
+
+.landing-img {
+  margin-top: 15%;
+}
+
+.work span, .contact span {
+  color:  rgb(255, 174, 23);
+}
+
+/* Index/About */
+
+.about:hover span {
+  display: none;
+}
+
+.about:hover:before {
+  content: "About";
+  margin-left: 2%;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+/* Index/Work */
+.work:hover span {
+  display: none;
+}
+
+.work:hover:before {
+  content: "Work";
+  margin-left: 2%;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+/* Index/Contact */
+.contact:hover span {
+  display: none;
+}
+
+.contact:hover:before {
+  content: "Contact";
+  margin-left: 2%;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+
+/* about page */
+
+.about-big-text {
+  font-size: 60px;
+  margin-left: 15%;
+
+}
+
+.about-image {
+  background: url(assets/img/naim.JPG) 50% 50% no-repeat;
+  width: 600px;
+  height: 700px;
+  margin: 5% 5% 0 10%;
+}
+
+.about-text {
+  margin: 8% 0 0 7%;
+}
+
+.about-text h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.about-intro {
+  letter-spacing: 0.02em;
+}
+
+.about-content {
+  text-align: justify;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+/* work page */
+
+.work-text {
+  width: fit-content;
+  height: fit-content;
+  line-height: 50%;
+}
+
+.work-text h1 {
+  font-size: 70px;
+}
+
+.work-text:hover {
+  transform: translateX(50px);
+  transition: all 0.4s ease-in-out;
+}
+
+.repo-desc {
+  color: rgb(202, 131, 0);
+}
+
+/* contact page */
+
+.contact-big-text {
+  font-size: 60px;
+  margin-left: 15%;
+
+}
+
+.contact-text {
+  margin: 0 0 0 15%;
+}
+
+.contact-title {
+  font-size: 40px;
+}
+
+.contact-content {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.contact-link {
+  line-height: 250%;
+  font-weight: 800;
+  color: rgb(202, 131, 0);
+}
+
+.github, .instagram, .linkedin {
+  width: fit-content;
+  height: fit-content;
+}
+
+.email:hover, .github:hover, .instagram:hover, .linkedin:hover {
+  transform: translateX(25px);
+  transition: all 0.2s ease-in-out;
+}
+
+.email {
+  height: fit-content;
+}
+
+.email:hover span {
+  display: none;
+}
+
+.email:hover:before {
+  content: "Copy to clipboard";
+  margin-left: 2%;
+}
