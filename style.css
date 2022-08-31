@@ -53,6 +53,7 @@ a.work-link:visited, a.email:visited, a.github:visited, a.instagram:visited, a.l
   position: fixed;
   background-color: inherit;
   overflow: hidden;
+  z-index: 9999;
 }
 
 .topnav a {
@@ -80,7 +81,7 @@ a.work-link:visited, a.email:visited, a.github:visited, a.instagram:visited, a.l
 }
 
 .landing-img {
-  margin-top: 15%;
+  margin-top: 150;
 }
 
 .work span, .contact span {
@@ -177,6 +178,19 @@ a.work-link:visited, a.email:visited, a.github:visited, a.instagram:visited, a.l
 .work-text:hover {
   transform: translateX(50px);
   transition: all 0.4s ease-in-out;
+}
+
+.work-img {
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.work-img img {
+  width: 40%;
+  position: absolute;
+  top: 10%;
+  left: 30%;
 }
 
 .repo-desc {
