@@ -8,6 +8,10 @@
   body {
     background-image: url("assets/img/under-maintenance.gif");
   }
+  
+  div .main {
+    display: none;
+  }
 }
 
 body {
